@@ -118,6 +118,8 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    /* vertical-align: bottom; */
+    display: block;
 }
 
 .media-block .hero-summary {
@@ -128,11 +130,12 @@ a {
     border-radius: 12px;
     background: #fff;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
-    padding: 28px 24px;
+    padding: 24px;
 }
 
 .media-block .item {
     display: flex;
+    align-items: center;
 }
 
 .media-block .item + .item {
